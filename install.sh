@@ -10,7 +10,7 @@
 
 #Define version and IP
 OCSVERSION=2.9
-GLPIVERSION=9.5.5
+GLPIVERSION=10.0.5
 PLUGINVERSION=1.7.3
 ip4=$(/sbin/ip -o -4 addr list | grep 2: | awk '{print $4}' | cut -d/ -f1) #Will not work if the interface is named as ens* or eno* (I will update this later).
 
